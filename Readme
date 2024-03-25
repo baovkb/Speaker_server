@@ -1,0 +1,10 @@
+khi kết nối websocket tới server, cần gửi request join đầu tiên, định dạng
+{
+    "action": "join"
+    "data": (not require)
+    "sender": "speaker" | "app"
+}
+
+chỉ duy nhất một speaker được kết nối cùng thời điểm
+có thể có nhiều app (web app, mobile app...)
+
