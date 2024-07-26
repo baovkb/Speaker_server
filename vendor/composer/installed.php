@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'vk/speaker',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => null,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => 'e65bc9a7c4827bd7616e97a4b5289f1d32327dbd',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -194,9 +194,9 @@
             'dev_requirement' => false,
         ),
         'vk/speaker' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => null,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => 'e65bc9a7c4827bd7616e97a4b5289f1d32327dbd',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

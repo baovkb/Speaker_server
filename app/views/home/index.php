@@ -5,7 +5,7 @@
             <span class="header__name-song">Unknown</span>
         </div>
         <div class="cd">
-            <div class="cd__thumb" style="background-image: url(https://sosanhoto.vn/assets/images/product_image/default.png);"></div>
+            <div class="cd__thumb" style="background-image: url(<?=BASE_URL .'/assets/img/no-image.png'?>);"></div>
         </div>
         <div class="duration">
             <span class="duration_start">0:00</span>

@@ -53,7 +53,7 @@ const app = {
         const htmls = this.audio.map((audio, index) => {
             return `
                 <li class="playlist-item ${index === this.curAudioId ? "playlist-item--active" : ""}" data-index="${index}">
-                    <div class="playlist__thumb" style="background-image: url(https://sosanhoto.vn/assets/images/product_image/default.png);"></div>
+                    <div class="playlist__thumb" style="background-image: url(<?=BASE_URL .'/assets/img/no-image.png'?>);"></div>
                     <div class="playlist__info">
                         <span class="playlist__name">${audio}</span>
                         <span class="playlist__author"></span>

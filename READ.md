@@ -15,3 +15,6 @@ Di chuyển vào project cài đặt các dependency bằng lệnh
 Tìm địa chỉ ip của server rồi vào [app/core/Helper.php](app/core/Helper.php), chỉnh sửa đường dẫn của server
 
 Tiến hành khởi chạy Laragon (Xampp) rồi truy cập vào web kiểm tra
+
+Nếu thành công sẽ có hình như thế này
+![chạy server thành công](image.png)

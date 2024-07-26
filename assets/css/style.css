@@ -321,6 +321,7 @@ li {
     border-radius: 4px;
     min-width: 180px;
     padding-bottom: 2px;
+    box-shadow: 0 0 1px var(--grey-color);
 }
 
 .timer_header {
