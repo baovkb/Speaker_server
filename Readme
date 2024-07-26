@@ -1,10 +1,17 @@
-khi kết nối websocket tới server, cần gửi request join đầu tiên, định dạng
-{
-    "action": "join"
-    "data": (not require)
-    "sender": "speaker" | "app"
-}
+<h1> Web server cho Speaker </h1>
+Đây là web app + server hỗ trợ cho [Speaker IoT] (https://github.com/baovkb/Speaker)
+<h3> Cách cài đặt </h3>
 
-chỉ duy nhất một speaker được kết nối cùng thời điểm
-có thể có nhiều app (web app, mobile app...)
+Tải php trên trang chính thức của php [php](https://www.php.net/downloads.php)
 
+Tải Composer trên trang chính thức [composer](https://getcomposer.org/download/)
+
+Tải Laragon (khuyến nghị) hoặc Xampp 
+
+Di chuyển vào project cài đặt các dependency bằng lệnh
+
+```composer install```
+
+Tìm địa chỉ ip của server rồi vào [app/core/Helper.php](app/core/Helper.php), chỉnh sửa đường dẫn của server
+
+Tiến hành khởi chạy Laragon (Xampp) rồi truy cập vào web kiểm tra
