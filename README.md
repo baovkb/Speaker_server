@@ -1,5 +1,5 @@
 <h1> Web server cho Speaker </h1>
-Đây là web app + server hỗ trợ cho [Speaker IoT] (https://github.com/baovkb/Speaker)
+Đây là web app + server hỗ trợ cho [Speaker IoT](https://github.com/baovkb/Speaker)
 <h3> Cách cài đặt </h3>
 
 - Tải php trên trang chính thức của php [php](https://www.php.net/downloads.php)
